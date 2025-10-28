@@ -1,0 +1,121 @@
+/* -------------------
+   MOBILE CSS (max-width: 767px)
+------------------- */
+@media screen and (max-width: 767px) {
+
+  /* Toàn bộ navbar chuyển từ ngang sang dọc */
+  .barr {
+    display: block;              /* Dàn dọc thay vì flex */
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+
+  /* Ẩn phần tên ở giữa */
+  .middlee {
+    display: none;
+  }
+
+  /* Các item bên trái và phải sẽ hiển thị dọc */
+  .leftt,
+  .rightt {
+    display: block;              /* Dàn xuống từng dòng */
+    margin: 5px 0;               /* Giảm khoảng cách */
+  }
+
+  /* Liên kết trong navbar */
+  .barr a {
+    display: block;              /* Dàn xuống theo chiều dọc */
+    padding: 8px 0;              /* Tạo khoảng cách dọc */
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+  }
+
+  /* Icon chỉnh nhỏ lại cho phù hợp */
+  .barr i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  /* Ảnh banner phía trên */
+  .anh {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Tiêu đề */
+  .love h1 {
+    font-size: 22px;
+  }
+
+  .love span {
+    font-size: 14px;
+  }
+/* Mobile: nhỏ hơn 768px */
+  .vv {
+    display: block;
+    padding: 15px;
+  }
+
+  .target, .personal-infor {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+
+  /* Giữ màu nền block */
+  .bg-grey {
+    background-color: #f0f0f0;
+    display: block;
+  }
+
+  /* Navbar xuống dọc */
+  .barr {
+    display: block;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .leftt, .rightt, .middlee {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .middlee h1 {
+    font-size: 1.3rem;
+  }
+
+  .middlee span {
+    display: block;
+  }
+    .naruto {
+    display: block;
+    padding: 10px;
+  }
+
+  .sakura {
+    display: block;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+  }
+
+  /* Xóa border 2 bên, chỉ giữ border dưới cùng */
+  .sakura:last-child {
+    border-bottom: none;
+  }
+
+  /* Ảnh full chiều ngang màn hình */
+  .gogo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+  /* Chữ căn giữa */
+  .uuu {
+    text-align: center;
+  }
+}

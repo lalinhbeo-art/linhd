@@ -1,0 +1,301 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    color: red;
+}
+i {
+    color: rgb(50, 50, 214)
+}
+.ten {
+    position: relative;
+    text-align: center;
+}
+.love {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #f7f7f7;
+    transform: translate(-50%, -50%);
+}
+.anh{
+    filter: brightness(50%);
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+.barr {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.middlee {
+    flex-basis: 350px;
+    border-left: 1px solid rgb(184, 182, 182);
+    border-right: 1px solid rgb(184, 182, 182);
+    height: 45px;
+}
+.rightt {
+    flex-basis: 180px;
+    border-right: 1px solid rgb(184, 182, 182);
+}
+.leftt {
+    flex-basis: 180px;
+    border-left: 1px solid rgb(184, 182, 182);
+}
+.nene{
+    padding:0px;
+    margin: 0px;
+    font-size: 20px;
+}
+span {
+    text-transform: lowercase;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    opacity: 70%;
+}
+.vv {
+    display: grid;
+    grid-template-columns:1fr 2.5fr 2.5fr 1fr;
+}
+.target {
+    padding-right: 20px;
+    grid-column: 2/3;
+    background-color: #f2ededf6;
+}
+.aa {
+    grid-area: 1/1/2/2;
+    background-color:#f2ededf6 ;
+}
+.personal-infor{
+    padding-left: 20px;
+    grid-column: 3/4;
+    background-color: #cac7c7;
+} 
+.bb {
+    grid-area: 1/4/2/5;
+    background-color: #cac7c7;
+}
+
+.info{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 25px;
+}
+ul li{
+    margin-bottom: 10px;
+}
+.dd {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,400px));
+    justify-content: center;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+.ddd{
+    display: grid; 
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 100px 1fr;
+    border: 1px solid rgb(184, 182, 182);
+    padding: 20px;
+}
+.dddd {
+    grid-area: 1/1/2/2;
+    align-self: center;
+    padding: 0px;
+    margin: 0px;
+}
+.cc{
+    grid-area: 1/2/2/3;
+    align-self: center;
+    justify-self: center;
+    font-size: 30px;
+    color: black;
+}
+.ccc{
+    grid-area: 2/1/3/3;
+}
+.liit{
+    display: flex;
+    grid-area: 2/1/3/3;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-basis: 30px;
+}
+.only{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    border: 2px solid rgb(16, 228, 189);
+    color: aqua;
+    border-radius: 50%;
+}
+.oc {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.skill{
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 70px;
+    background: #199cdb;
+    border-radius: 5px;
+}
+.sil{
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 70px;
+    background: gray;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 18px;
+}
+.naruto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gogo{
+    width: 250px;
+    display: block;
+    float: left;
+}
+h6{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+.sakura{
+    padding-bottom: 40px;
+    padding-top:40px;
+    display:flex;
+    /* margin-right: 40px; */
+    gap:20px;
+}
+#nono{
+    border-bottom: 2px solid #d6c08d;
+}
+#nte{
+    border-left: 2px solid #d6c08d;
+    padding-left: 40px ;
+}
+.lolo{
+    display: block;
+    padding-left:120px;
+    padding-top:40px;
+    margin-top: 20px;
+    background-color: #f2ededf6;
+}
+.nole{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,400px));
+    justify-content: center;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+.fad{
+    width: 400px;
+    height: 300px;
+}
+.nowe{
+    display: block;
+    border: 1px solid rgb(91, 89, 89);
+    padding: 20px;
+}
+.rote{
+    display: flex;
+    border: 1px solid rgb(91, 89, 89);
+    border-top: none;
+    border-bottom: none;
+    padding: 20px;
+    gap: 10px;
+}
+.icon-user-1{
+    color: black;
+}
+table{
+    border: 1px solid rgb(91, 89, 89);
+    border-top: none;
+}
+th{
+    padding :20px;
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+    
+}
+td{
+    padding :20px;
+}
+tr{
+    display: block;
+    border-top: 1px solid rgb(91, 89, 89);
+}
+.dk{
+    margin: 40px;
+    margin-left: 120px;
+}
+.ofd{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap:20px;
+    margin-top: 40px;
+    margin-bottom: opx;
+    background-color: rgba(131, 128, 128, 0.23);
+}
+.hide {
+  display: none;
+}
+/* Ẩn nội dung ban đầu */
+.ddd .ccc,
+.ddd .liit {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+/* Khi có class expanded thì mở ra */
+.ddd.expanded .ccc,
+.ddd.expanded .liit {
+  max-height: 1000px; /* đủ lớn để chứa nội dung */
+  opacity: 1;
+}
+
+/* Nút View More chỉ hiện khi hover */
+.view-btn {
+  display: none;
+  background-color: #ff7b00;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ddd:hover .view-btn {
+  display: inline-block;
+}
+
+.view-btn:hover {
+  background-color: #ff5500;
+}

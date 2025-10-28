@@ -1,0 +1,97 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  /* --- Thanh navbar --- */
+  .barr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* giảm khoảng cách giữa các mục */
+    padding: 10px 20px;
+  }
+
+  /* Ẩn phần tên ở giữa navbar */
+  .middlee {
+    display: none;
+  }
+
+  /* Các phần tử trong navbar */
+  .barr a {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .barr i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  /* Ẩn ảnh banner nếu cần */
+  .ten img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Giảm kích thước chữ tiêu đề */
+  .love h1 {
+    font-size: 26px;
+  }
+}
+/* tablet.css */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  #about {
+    padding: 30px 40px;
+  }
+
+  .vv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* giảm khoảng cách giữa hai cột */
+  }
+
+  .target, .personal-infor {
+    flex: 1 1 48%;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .target p, .personal-infor li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .info {
+    padding-left: 10px;
+  }
+  .gogo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* Giữ layout 2 cột nhưng thu nhỏ khoảng cách */
+  .naruto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .sakura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 15px;
+  }
+
+  .uuu {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
